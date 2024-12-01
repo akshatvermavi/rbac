@@ -1,3 +1,49 @@
+# RBAC (Role-Based Access Control)
+
+## Key Features
+
+### React + Vite:
+- Utilizes **Vite** for faster development and builds.
+- React integration ensures a smooth front-end development experience.
+
+### TypeScript:
+- Ensures **type safety** and better development workflows.
+
+### ESLint Setup:
+- Includes configuration options for **code linting**.
+- Supports both Babel and SWC for **hot module replacement (HMR)** via plugins.
+
+---
+
+## Purpose
+This repository provides a minimal yet extensible template for setting up a **React + TypeScript** project using Vite, with a focus on ESLint rules and HMR for efficient development.
+
+---
+
+## File Structure
+
+### `README.md`
+- Describes the setup and configuration details for the project.
+- Provides guidance on expanding ESLint configurations for production use.
+
+### Core Configuration Files:
+- **`tsconfig.app.json` & `tsconfig.node.json`:**  
+  TypeScript configuration files for app and node environments.
+- **`eslint.config.js`:**  
+  Configuration for ESLint, including React and stylistic rules.
+
+### Source Code:
+- Primarily written in **TypeScript (88.4%)** with supporting **JavaScript, HTML, and CSS**.
+
+---
+
+## Setup Instructions
+
+### Clone the Repository
+```bash
+git clone https://github.com/akshatvermavi/rbac.git
+cd rbac
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
