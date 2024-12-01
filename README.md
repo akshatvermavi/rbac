@@ -22,7 +22,6 @@ This repository provides a minimal yet extensible template for setting up a **Re
 
 ## File Structure
 
-### `README.md`
 - Describes the setup and configuration details for the project.
 - Provides guidance on expanding ESLint configurations for production use.
 
